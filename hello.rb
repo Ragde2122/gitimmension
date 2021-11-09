@@ -1,6 +1,6 @@
-# El valor predeterminado es "Mundo"
-# Autor: Edgar Francisco Mata Pérez (edgar.matapz@uanl.edu.mz)
-pone "Cómo te llamas"
-my_name = obtiene. tira
+# Default is "World"
+# Author: Gene Mountjoy (mountwe@live.com)
+puts "What's your name"
+my_name = gets.strip
 
-pone "Hola,  #{my_name}!"
+puts "Hello, #{my_name}!"
